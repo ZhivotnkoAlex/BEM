@@ -6,103 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
-    <title>index</title>
+    <title>БЕМ-Студия</title>
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body class="body">
     <header class="header">
-        <div class="container header-flex">
-            <div class="header-flex">
-                <a href="./index.html" class="header-logo"> <span class="logo-color">Web</span> Studio</a>
+        <div class="header__container header__wrap">
+            <div class="header__wrap">
+                <a href="./index.html" class="logo header__logo"> <span class="logo--blue">Web</span> Studio</a>
                 <nav>
-                    <ul class="site-nav-accent header-nav">
-                        <li>
-                            <a class="nav-link" href=./index.html>Студия</a>
+                    <ul class="site-nav site-nav--accent header_site-nav">
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href=./index.html>Студия</a>
                         </li>
-                        <li>
-                            <a class="nav-link" href="./portfolio.html">Портфолио</a>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
                         </li>
-                        <li>
-                            <a class="nav-link" href="">Контакты</a>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="">Контакты</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div class="header-contacts">
-                <a href="mailto:info@devstudio.com" class="header-accent header-link"> info@devstudio.com</a>
-                <a href="tel:380961111111" class="header-accent header-link">+38 096 111 11 11</a>
+            <div>
+                <a href="mailto:info@devstudio.com" class=" contacts contacts--accent "> info@devstudio.com</a>
+                <a href="tel:380961111111" class=" contacts contacts--accent ">+38 096 111 11 11</a>
             </div>
         </div>
     </header>
     <main>
         <!-- Герой -->
-        <section>
-            <div class="container">
-                <H1 class="hero-text hero">эффективные решения для вашего бизнеса</H1>
-                <button class="button hero">Заказать услугу</button>
+        <section class="hero">
+            <div class="hero__container">
+                <H1 class="hero-title ">эффективные решения для вашего бизнеса</H1>
+                <button class="button button--center">Заказать услугу</button>
             </div>
         </section>
 
         <!-- Описание ценностей -->
         <section class="values-section">
-            <div class="container">
+            <div class="values-section__container">
                 <h2 class="visually-hidden">Наши ценности</h2>
-                <ul class="values">
-                    <li>
+                <ul class="values-section__list">
+                    <li class="values-section__item">
                         <a href=" " aria-label="антенна "></a>
-                        <h3>Внимание к деталям</h3>
-                        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="values-section__title ">Внимание к деталям</h3>
+                        <p class="values-section__descr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li>
+                    <li class="values-section__item">
                         <a href=" " aria-label="часы "></a>
-                        <h3>Пунктуальность</h3>
-                        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="values-section__title">Пунктуальность</h3>
+                        <p class="values-section__descr">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li>
+                    <li class="values-section__item">
                         <a href=" " aria-label="диаграмма на мониторе "></a>
-                        <h3>Планирование</h3>
-                        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="values-section__title">Планирование</h3>
+                        <p class="values-section__descr">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li>
+                    <li class="values-section__item">
                         <a href=" " aria-label="космонавт "></a>
-                        <h3>Современные технологии</h3>
-                        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="values-section__title">Современные технологии</h3>
+                        <p class="values-section__descr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- чем мы занимаемся -->
-        <section class="specialization ">
-            <div class="container">
-                <h2>Чем мы занимаемся</h2>
-                <ul>
-                    <li>
-                        <a href=" "><img class="specialization-img" src="./images/box_1.png " width="370 " alt="ноутбук "></a>
-                        <p>Десктопные приложения</p>
+        <section class="specialization">
+            <div class="specialization__container ">
+                <h2 class="specialization__title">Чем мы занимаемся</h2>
+                <ul class="specialization__list">
+                    <li class="specialization__list-item">
+                        <a href=" "><img class="specialization__img " src="./images/box_1.png " width="370 " alt="ноутбук "></a>
+                        <p class="specialization__descr">Десктопные приложения</p>
                     </li>
-                    <li>
-                        <a href=" "><img class="specialization-img" src="./images/box_2.png " width="370 " alt="телефон цветной "></a>
-                        <p>Мобильные приложения</p>
+                    <li class="specialization__list-item">
+                        <a href=" "><img class="specialization__img " src="./images/box_2.png " width="370 " alt="телефон цветной "></a>
+                        <p class="specialization__descr">Мобильные приложения</p>
                     </li>
-                    <li>
-                        <a href=" "><img class="specialization-img" src="./images/box_3.png " width="370 " alt="монитор "></a>
-                        <p>Дизайнерские решения</p>
+                    <li class="specialization__list-item">
+                        <a href=" "><img class="specialization__img " src="./images/box_3.png " width="370 " alt="монитор "></a>
+                        <p class="specialization__descr">Дизайнерские решения</p>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- Комманда -->
         <section class="team">
-            <div class="container">
-                <h2 class="team-title">Наша команда</h2>
-                <ul class="team-flex ">
-                    <li class="team-card">
-                        <img class="team-img" src="./images/john_smith.png " width="270 " alt="джон смит ">
-                        <h4 class="team-name">John Smith</h4>
-                        <p class="team-profession">Product Designer</p>
-                        <ul>
+            <div class="team__container ">
+                <h2 class="team__title ">Наша команда</h2>
+                <ul class="team__list">
+                    <li class="card">
+                        <img class="card__img " src="./images/john_smith.png " width="270 " alt="джон смит ">
+                        <h4 class="card__name ">John Smith</h4>
+                        <p class="card__profession ">Product Designer</p>
+                        <ul class="social-network">
                             <li>
                                 <a href="https://www.instagram.com/ " aria-label="Инстаграм "></a>
                             </li>
@@ -117,11 +117,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="team-card">
-                        <img class="team-img" src="./images/marta_stewart.png " width="270 " alt="марта стюарт ">
-                        <h4 class="team-name">Marta Stewart</h4>
-                        <p class="team-profession">Frontend Developer</p>
-                        <ul>
+                    <li class="card ">
+                        <img class="card__img " src="./images/marta_stewart.png " width="270 " alt="марта стюарт ">
+                        <h4 class="card__name">Marta Stewart</h4>
+                        <p class="card__profession ">Frontend Developer</p>
+                        <ul class="social-network">
                             <li>
                                 <a href="https://www.instagram.com/ " aria-label="Инстаграм "></a>
                             </li>
@@ -136,11 +136,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="team-card">
-                        <img class="team-img" src="./images/robert_jakis.png " width="270" alt="роберт джекис ">
-                        <h4 class="team-name">Robert Jakis</h4>
-                        <p class="team-profession">Marketing</p>
-                        <ul>
+                    <li class="card ">
+                        <img class="card__img" src="./images/robert_jakis.png " width="270 " alt="роберт джекис ">
+                        <h4 class="card__name ">Robert Jakis</h4>
+                        <p class="card__profession ">Marketing</p>
+                        <ul class="social-network">
                             <li>
                                 <a href="https://www.instagram.com/ " aria-label="Инстаграм "></a>
                             </li>
@@ -155,11 +155,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="team-card">
-                        <img class="team-img" src="./images/martin_doe.png " width="270" alt="мартин доу ">
-                        <h4 class="team-name">Martin Doe</h4>
-                        <p class="team-profession">UI Designer</p>
-                        <ul>
+                    <li class="card ">
+                        <img class="card__img " src="./images/martin_doe.png " width="270 " alt="мартин доу ">
+                        <h4 class="card__name ">Martin Doe</h4>
+                        <p class="card__profession ">UI Designer</p>
+                        <ul class="social-network">
                             <li>
                                 <a href="https://www.instagram.com/ " aria-label="Инстаграм "></a>
                             </li>
@@ -179,11 +179,11 @@
         </section>
         <!-- клиенты -->
         <section class="clients">
-            <div class="container">
-                <h2>Постоянные клиенты</h2>
-                <ul>
+            <div class="clients__container ">
+                <h2 class="clients__title">Постоянные клиенты</h2>
+                <ul class="clients__list">
                     <li>
-                        <a href=" " aria-label="клиент1 "></a>
+                        <a href="" aria-label="клиент1 "></a>
                     </li>
                     <li>
                         <a href=" " aria-label="клиент2 "></a>
@@ -206,22 +206,22 @@
     </main>
 
     <footer class="footer ">
-        <div class="container ">
-            <div class="footer-flex ">
+        <div class="footer__container ">
+            <div class="footer__items">
                 <!-- контакты   -->
-                <div class="footer-contacts ">
-                    <a href="./index.html " class="footer-logo "> <span class="logo-color ">Web</span> Studio</a>
-                    <address class="footer-address ">
-                      <p> г. Киев, пр-т Леси Украинки, 26</p>
-                      <a href="mailto:info@example.com " class="footer-mail ">info@example.com</a>
-                      <a href="tel:380961111111 ">+38 096 111 11 11</a>
+                <div class="footer__contacts ">
+                    <a href="./index.html " class="logo--blue logo__footer"> Web <span class="logo--invert">Studio</span></a>
+                    <address class="address">
+                      <p class="address__local"> г. Киев, пр-т Леси Украинки, 26</p>
+                      <a href="mailto:info@example.com " class="address__mail">info@example.com</a>
+                      <a href="tel:380961111111" class="address__tel">+38 096 111 11 11</a>
                     </address>
                 </div>
 
                 <!-- социальные сети -->
-                <div class="footer-join ">
-                    <b>присоединяйтесь</b>
-                    <ul>
+                <div class="invitation">
+                    <b class="invitation__title">присоединяйтесь</b>
+                    <ul class="invitation__networks">
                         <li>
                             <a href="https://www.instagram.com/ " aria-label="Инстаграм "></a>
                         </li>
@@ -237,12 +237,12 @@
                     </ul>
                 </div>
                 <!-- подписка -->
-                <div class="footer-submit ">
-                    <b class="footer-submit-item "> подписаться на рассылку</b>
-                    <ul>
-                        <li class="footer-input-descr "><input type="text " class="footer-input "> E-mail
+                <div class="submit">
+                    <b class="submit__title "> подписаться на рассылку</b>
+                    <ul class="submit__list">
+                        <li class="submit__item"><input type="email" value="E-mail" class="submit__mail ">
                         </li>
-                        <li><button class="button ">Подписаться</button></li>
+                        <li><button class="button submit__button ">Подписаться</button></li>
                     </ul>
                 </div>
             </div>
